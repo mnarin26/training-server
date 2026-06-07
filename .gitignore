@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Eğitim verisi ve çıktılar (yerel)
+data/lake/
+data/work/
+data/datasets/
+data/models/
+data/bundles/
+registry/*/
+!registry/registry.py
+
+# Modeller ve arşivler
+*.onnx
+*.zip
+*.pt
+*.pth
+
+# Ortam / gizli
+.env
+.env.*

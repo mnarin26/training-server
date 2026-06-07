@@ -1,0 +1,13 @@
+# Training server (Ubuntu + NVIDIA RTX). Install with CUDA-enabled PyTorch.
+# See: https://pytorch.org/get-started/locally/ for the correct CUDA wheel.
+
+torch>=2.2
+torchvision>=0.17
+onnx>=1.15
+onnxruntime>=1.17
+numpy>=1.26
+Pillow>=10.2
+albumentations>=1.4
+scikit-learn>=1.4
+PyYAML>=6.0
+streamlit==1.39.0    # basit eğitim arayüzü (app.py) — 1.58 static dosya sorunu var
