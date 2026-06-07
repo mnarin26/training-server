@@ -16,7 +16,9 @@ bash start.sh
 ## Ürün klasörü düzeni
 
 ```
-<ürün>/surface_<i>/<EMPTY|FILLED>/roi_<idx>/*.jpg
+<ürün>/surface_<i>/<SINIF>/roi_<idx>/*.jpg
 ```
+
+SINIF: `EMPTY`, `FILLED` veya defect etiketleri (ör. `TERS`, `EZIK`).
 
 Ürünleri `/home/ubuntu/training/` altına koy; arayüzden seç ve eğit.
